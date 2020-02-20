@@ -9,7 +9,9 @@ float Acceleration_angle[2];
 float Gyro_angle[2];
 float Total_angle[2];
 
-float elapsedTime, time, timePrev;
+float elapsedTime;
+float time;
+float timePrev;
 int i;
 float rad_to_deg = 180/3.141592654;
 
